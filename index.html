@@ -12,6 +12,7 @@
     <header>
         <nav>
             <a href="#inicio">Inicio</a>
+            <a href="#habilidades">Habilidades</a>
             <a href="#proyectos">Proyectos</a>
             <a href="#contacto">Contacto</a>
         </nav>
@@ -19,14 +20,43 @@
 
     <main>
         <section id="inicio">
-            <img src="images/isntsoeasy-avatar-1024.png" alt="Bernie">
+            <img src="images/fotoperejil.jpg" alt="perejil">
             <h1>¡Hola soy Daniel!</h1>
-            <p>Estudiante de Programacion, Aprendiendo C#, Java, HTML, CSS Y .NET MAUI!!!</p>
+            <p>Programador especializado en .NET</p>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <p></p>
+
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original"
+                    alt="c#">
+                <figcaption>C#</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="java">
+                <figcaption>Java</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://play-lh.googleusercontent.com/1SUIeCQWWTLY9w7_w4ExqoGJVoCqg0SsfX41VWYChpuSvwNAMLLqkevDLD3A3psBTqrL4nw9DoekC3qwRcYcbfQ"
+                    alt="MAUI">
+                <figcaption>.NET MAUI</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://brandlogos.net/wp-content/uploads/2026/06/microsoft-sql-server-logo.png" alt="SQL">
+                <figcaption>SQL</figcaption>
+            </figure>
+
+
         </section>
 
         <section id="proyectos">
             <h2>Mis proyectos</h2>
-            <p>No es la gran cosa pero por algo se empieza</p>
+            <p>Mi objetivo es ser un desarrollar que pueda utilizar multiples lenguajes de manera eficaz</p>
 
             <article>
                 <h3>Calculadora Movil</h3>
@@ -44,23 +74,63 @@
 
             </article>
 
+            <article>
+                <h3>Sistema Reinscripción</h3>
+                <img src="images/IMG-20260816-WA0099.jpg">
+                <p>Sistema con conexion a base de datos en el cual los alumnos pueden reinscribirse sin ir a control
+                    escolar</p>
+                <a href="https://github.com/Ariel-Ochoa-Valdez/SistemaEscolar">Ver repositorio</a>
+            </article>
+
+
         </section>
 
-        <section id="Contacto">
+        <section id="contacto">
             <h2>Contacto</h2>
-            <p class="discord">
-                <svg class="icono" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                    <path
-                        d="M18.59 5.88997C17.36 5.31997 16.05 4.89997 14.67 4.65997C14.5 4.95997 14.3 5.36997 14.17 5.69997C12.71 5.47997 11.26 5.47997 9.83001 5.69997C9.69001 5.36997 9.49001 4.95997 9.32001 4.65997C7.94001 4.89997 6.63001 5.31997 5.40001 5.88997C2.92001 9.62997 2.25001 13.28 2.58001 16.87C4.23001 18.1 5.82001 18.84 7.39001 19.33C7.78001 18.8 8.12001 18.23 8.42001 17.64C7.85001 17.43 7.31001 17.16 6.80001 16.85C6.94001 16.75 7.07001 16.64 7.20001 16.54C10.33 18 13.72 18 16.81 16.54C16.94 16.65 17.07 16.75 17.21 16.85C16.7 17.16 16.15 17.42 15.59 17.64C15.89 18.23 16.23 18.8 16.62 19.33C18.19 18.84 19.79 18.1 21.43 16.87C21.82 12.7 20.76 9.08997 18.61 5.88997H18.59ZM8.84001 14.67C7.90001 14.67 7.13001 13.8 7.13001 12.73C7.13001 11.66 7.88001 10.79 8.84001 10.79C9.80001 10.79 10.56 11.66 10.55 12.73C10.55 13.79 9.80001 14.67 8.84001 14.67ZM15.15 14.67C14.21 14.67 13.44 13.8 13.44 12.73C13.44 11.66 14.19 10.79 15.15 10.79C16.11 10.79 16.87 11.66 16.86 12.73C16.86 13.79 16.11 14.67 15.15 14.67Z"
-                        fill="#000000" />
-                </svg>
-                isntsoeasy
-            </p>
+            <h2>Contactame</h2>
+            <form id="formContacto">
+
+                <label for="nombre">Ingrese su nombre</label>
+                <br>
+                <input type="text" name="nombre" placeholder="Ingrese su nombre aquí">
+                <br>
+
+                <label for="correo">Ingresa tu correo</label>
+                <br>
+                <input type="email" name="correo" placeholder="Ingrese su correo aquí">
+                <br>
+
+                <label for="mensaje">Mensaje</label>
+                <br>
+                <input type="text" name="mensaje" placeholder="Ingresar mensaje">
+                <br>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+
+                <p id="resultado"></p>
+
+
+
+
+
+            <!-----
+         
+        -->
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Daniel</p>
+          <p class="discord">
+                <svg class="icono" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path
+                        d="M18.59 5.88997C17.36 5.31997 16.05 4.89997 14.67 4.65997C14.5 4.95997 14.3 5.36997 14.17 5.69997C12.71 5.47997 11.26 5.47997 9.83001 5.69997C9.69001 5.36997 9.49001 4.95997 9.32001 4.65997C7.94001 4.89997 6.63001 5.31997 5.40001 5.88997C2.92001 9.62997 2.25001 13.28 2.58001 16.87C4.23001 18.1 5.82001 18.84 7.39001 19.33C7.78001 18.8 8.12001 18.23 8.42001 17.64C7.85001 17.43 7.31001 17.16 6.80001 16.85C6.94001 16.75 7.07001 16.64 7.20001 16.54C10.33 18 13.72 18 16.81 16.54C16.94 16.65 17.07 16.75 17.21 16.85C16.7 17.16 16.15 17.42 15.59 17.64C15.89 18.23 16.23 18.8 16.62 19.33C18.19 18.84 19.79 18.1 21.43 16.87C21.82 12.7 20.76 9.08997 18.61 5.88997H18.59ZM8.84001 14.67C7.90001 14.67 7.13001 13.8 7.13001 12.73C7.13001 11.66 7.88001 10.79 8.84001 10.79C9.80001 10.79 10.56 11.66 10.55 12.73C10.55 13.79 9.80001 14.67 8.84001 14.67ZM15.15 14.67C14.21 14.67 13.44 13.8 13.44 12.73C13.44 11.66 14.19 10.79 15.15 10.79C16.11 10.79 16.87 11.66 16.86 12.73C16.86 13.79 16.11 14.67 15.15 14.67Z"
+                        fill="#000000" />
+                        
+                </svg>
+                isntsoeasy
+            </p>
     </footer>
 </body>
 

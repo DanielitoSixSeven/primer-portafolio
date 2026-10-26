@@ -1,10 +1,12 @@
+html {scroll-behavior: smooth;}
+
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
 
-/*estilo general de la pagina */
 body{
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
@@ -12,7 +14,6 @@ body{
     line-height:1,6;
 }
 
-/*menu*/
 
 header{
     background-color: #2d2d44;
@@ -58,6 +59,22 @@ h2{
     border: 4px solid #2d2d44;
 }
 
+
+#habilidades img{
+    width: 128px;
+    height: 128px;
+
+}
+
+#habilidades figure{
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+
 article{
     background-color: white;
     padding:20px;
@@ -68,7 +85,7 @@ article{
 }
 
 article img{
-    max-width: 100%; /*tamaño de la imagen ajustado estudiar esto */
+    max-width: 100%; 
     border-radius: 8px;
     margin: 10px 0;
 }
@@ -99,10 +116,40 @@ article a:hover{
     gap: 8px;
 }
 
+#contacto{
+    background-color: white;
+    border-radius: 10px;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+#contacto input{
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 8px 0;
+    width: 50%;
+}
+
+#contacto button{
+ border-radius: 5px;
+ background-color: #2d2d44;
+ color: white;
+margin-bottom: auto;
+padding: 5px;
+}
+
+#contacto button:hover{
+    cursor: pointer;
+}
+
+
 footer{
     text-align: center;
     padding: 20px;
-    background-color: #2d2d44;
+    background-color: #454576;
     color:white;
+    width: 100%;
+    margin: 8px 0;
     
 }
+
